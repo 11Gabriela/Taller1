@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Detalles del Espacio</title>
+</head>
+<body>
+    <h1>Detalles del Espacio</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Planeta</th>
+            <th>Distancia del Sol (km)</th>
+            <th>Diámetro (km)</th>
+            <th>Gravedad (m/s²)</th>
+        </tr>
+        <tr>
+            <td>Tierra</td>
+            <td>149,600,000</td>
+            <td>12,742</td>
+            <td>9.8</td>
+        </tr>
+        <tr>
+            <td>Marte</td>
+            <td>227,940,000</td>
+            <td>6,779</td>
+            <td>3.7</td>
+        </tr>
+        <tr>
+            <td>Júpiter</td>
+            <td>778,500,000</td>
+            <td>139,820</td>
+            <td>24.8</td>
+        </tr>
+        <tr>
+            <td>Saturno</td>
+            <td>1,426,700,000</td>
+            <td>116,460</td>
+            <td>10.4</td>
+        </tr>
+        <tr>
+            <td>Urano</td>
+            <td>2,870,990,000</td>
+            <td>50,724</td>
+            <td>8.7</td>
+        </tr>
+    </table>
+    
+    <ol>
+        <li>Características generales de los planetas</li>
+        <li>Composición atmosférica</li>
+        <li>Presencia de agua</li>
+        <li>Curiosidades
+            <ul>
+                <li>Júpiter tiene más de 79 lunas.</li>
+                <li>Saturno es conocido por sus impresionantes anillos.</li>
+                <li>Urano y Neptuno son gigantes de hielo.</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="planeta">Planeta favorito:</label>
+        <select id="planeta" name="planeta">
+            <option value="tierra">Tierra</option>
+            <option value="marte">Marte</option>
+            <option value="jupiter">Júpiter</option>
+            <option value="saturno">Saturno</option>
+            <option value="urano">Urano</option>
+        </select><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <a href="index.html">Ir a la página 1</a>
+</body>
+</html>
